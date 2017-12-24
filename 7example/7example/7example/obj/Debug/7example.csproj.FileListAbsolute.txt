@@ -1,0 +1,6 @@
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\bin\Debug\7example.exe.config
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\bin\Debug\7example.exe
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\bin\Debug\7example.pdb
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\obj\Debug\7example.csprojResolveAssemblyReference.cache
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\obj\Debug\7example.exe
+C:\Users\vpuhoff\Test-Data-Science\7example\7example\7example\obj\Debug\7example.pdb
