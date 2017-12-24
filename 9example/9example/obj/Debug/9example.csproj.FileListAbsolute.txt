@@ -1,0 +1,5 @@
+C:\Users\vpuhoff\Test-Data-Science\9example\9example\bin\Debug\9example.exe.config
+C:\Users\vpuhoff\Test-Data-Science\9example\9example\bin\Debug\9example.exe
+C:\Users\vpuhoff\Test-Data-Science\9example\9example\bin\Debug\9example.pdb
+C:\Users\vpuhoff\Test-Data-Science\9example\9example\obj\Debug\9example.exe
+C:\Users\vpuhoff\Test-Data-Science\9example\9example\obj\Debug\9example.pdb
