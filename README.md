@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/vpuhoff/Test-Data-Science/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Ответы
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+### 1
+What is the least number of operations necessary to sort an array of n arbitrary objects ?
+```markdown
+В случае произвольных данных большинство самых быстрых алгоритмов требует минимум O(n*log(n)) операций
+```
+### 2
+What is the most efficient data structure to support appending to the end of the set, removing last element from the set, as well as accessing or updating ith value ? Provide explanation and complexities.
+```markdown
+Наиболее эффективная структура для хранения набора данных называется список. В данной структуре элементы хранят ссылки на другие элементы вместе с данными, а так же ссылка на первый и последний элемент списка. В зависимости от функциональных требований к структуре он может односвязным (хранится информация только о следующем или предыдущем элементе) либо полносвязным (хранится информация о следующем и предыдущем элементе). В данном случае в задаче требуется иметь возможность вставки, удаления или изменения произвольного элемента. В случае с односвязным списком, в зависимости от того данные о каком элементе хранятся будет высокая эффективность либо вставки, либо удаления, такие структуры так же называют Стек и Очередь. Но стек и очередь не эффективны на операциях вставки внутрь или и не могут быть одновременно эффективными при операциях и удаления и вставки. Причиной тому недостаток информации о предущем или о следующем элементе. Поэтому в данной задаче наиболее эффективной структурой будет полносвязный список (двунаправленный связный список), в такой структуре удаление, вставка, изменение одинаково эффективны. 
+```
+### 3
+What is the most efficient data structure to support inserting into a set as well as selection and deletion of a value from random position ? Provide explanation and complexities.
+```markdown
+В данном вопросе не идет речь о первом или последнем элементе из набора, поэтому видимо имеется в виду не сортированный набор данных. В таком случае наиболее эффективной структурой будет являться Хэш-таблица. Данная структура позволяет хранить пары ключ-значение и быстро выполнять перечисленные в вопросе операции (выбор, вставка и удаление элемента).
+```
+### 4
+What is virtual memory ? What is it used for ? Why it is necessary ?
+```markdown
+Виртуальная память это метод управления памятью, при котором для освобождения быстрой и ограниченной оперативной памяти используется перенос не требующихся в данный момент данных на медленную память, например жесткий диск. Данный метод используется в большинстве операционных систем для решения проблемы распределения оперативной памяти, например многие приложения, т.к. это позволяет предоставить приложению больше памяти чем доступно оперативной памяти. Это позволяет избежать сбоев в работе приложений из за недостатка оперативной памяти путем увеличения нагрузки на медленную память.
+```
+### 5
+Write an efficient program which given two sorted arrays A[0..n] and B[0..m] finds all values that are present in both array
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Исходник](https://github.com/vpuhoff/Test-Data-Science/blob/master/5.ipynb)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vpuhoff/Test-Data-Science/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
